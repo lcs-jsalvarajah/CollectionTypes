@@ -13,7 +13,7 @@ var grades : [Double] = []
 /*:
  2. Now populate the array with eight random grades between 60 and 100.
  */
-for _ in 1...5 {
+for _ in 1...8 {
     grades.append( Double( arc4random_uniform(90) + 10 ))
 }
 
